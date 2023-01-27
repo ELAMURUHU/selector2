@@ -1,0 +1,53 @@
+p{
+	text-align:center;
+	color:blue
+}
+#kim{
+	text-align:left;
+	color:red
+}
+.moon{
+	text-align:right;
+	color:white;
+	background-color:black
+}
+p.sun{
+	text-align:left;
+	font-size:30px
+}
+p.shine{
+	
+	font-size:60px
+}
+h4,h5,q{
+	text-align:center;
+	background-color:purple;
+	
+}
+div p{
+	text-align:left;
+	background-color:yellow;
+	color:red
+}
+div > p{
+	background-color:yellow
+}
+div + p{
+	background-color:orange;
+	text-align:left
+}
+div~p{
+	background-color:green
+}
+
+a[target]{
+	background-color:#ff8080
+}
+a[target="_top"]{
+	background-color:#226600
+}
+[title~="jetairways"]{
+	border:5px solid yellow
+}	
+[title~="spice"]{
+	border:5px solid red

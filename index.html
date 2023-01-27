@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css">
+<title>simple,combinator,attribute selectors</title>
+</head>
+<body>
+<div>
+<h2>element selector</h2>
+The element selector selects HTML elements based on the element name.
+<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+</div><hr>
+<h2>id selector</h2>
+id selector uses the id attribute of an HTML element to select a specific element.
+<article id="kim">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</article>
+<hr>
+<section>
+<h2>class selector</h2>
+ class selector selects HTML elements with a specific class attribute.
+ <aside class="moon">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</aside>
+ only specific HTML elements should be affected by a class.
+ <p class="sun">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages</p>
+ <p class="sun shine">It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages</p>
+</section><hr>
+<div>
+The universal selector (*) selects all HTML elements on the page.
+<h3>grouping selector:</h3>
+<h4>Where does it come from?</h4>
+<h5>Why do we use it?</h5>
+<q>is it okay</q>
+</div>
+<hr>
+<div>
+<h2>combinator selector:</h2>
+Descendant Selector(space):matches all elements that are descendants of a specified element.
+ <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+ CHILD SELECTOR:selects all elements that are the children of a specified element.
+ <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution</p>
+ </div>
+ Adjacent Sibling Selector (+):used to select an element that is directly after another specific element.
+ <p>as opposed to using 'Content here, content here',</p>
+ General Sibling Selector (~):selects all elements that are next siblings of a specified element.
+ <p>Many desktop publishing packages and web page editors now use Lorem Ipsum as their default mode</p>
+ <p>now use Lorem Ipsum as their default mode</p>
+ <hr>
+ <section>
+ 1.[attribute] Selector:<br>
+The [attribute] selector is used to select elements with a specified attribute.<br>
+<a href="https://www.flipkart.com/">flipkart</a>
+<a href="https://www.croma.com/" target="_blank">croma.com</a><br>
+2.[attribute="value"] Selector:<br>
+<a href="https://support.microsoft.com/" target="_top">microsoft support</a><br><br>
+<br>
+ </section>
+ 
+ <section>
+ 3.[attribute~="value"] Selector:<br><br>
+<img src="image/plane1.jfif" title="jetairways" width="100" height="100">
+<img src="image/plane2.jfif" title="spice" width="100" height="100">
+<img src="image/plane3.jpg" title="air asia" width="100" height="100">
+</section>
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+</body>
